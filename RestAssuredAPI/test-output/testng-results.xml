@@ -1,29 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11364" started-at="2024-03-20T16:56:19 IST" finished-at="2024-03-20T16:56:30 IST">
+  <suite started-at="2024-04-16T16:03:59 IST" name="Default suite" finished-at="2024-04-16T16:04:05 IST" duration-ms="6113">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11364" started-at="2024-03-20T16:56:19 IST" finished-at="2024-03-20T16:56:30 IST">
+    <test started-at="2024-04-16T16:03:59 IST" name="Default test" finished-at="2024-04-16T16:04:05 IST" duration-ms="6113">
       <class name="api.test.UserTest">
-        <test-method status="PASS" signature="setUpData()[pri:0, instance:api.test.UserTest@7a30d1e6]" name="setUpData" is-config="true" duration-ms="316" started-at="2024-03-20T16:56:19 IST" finished-at="2024-03-20T16:56:19 IST">
+        <test-method is-config="true" signature="setUpData()[pri:0, instance:api.test.UserTest@4659191b]" started-at="2024-04-16T16:03:59 IST" name="setUpData" finished-at="2024-04-16T16:03:59 IST" duration-ms="342" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpData -->
-        <test-method status="PASS" signature="testPost()[pri:1, instance:api.test.UserTest@7a30d1e6]" name="testPost" duration-ms="5435" started-at="2024-03-20T16:56:19 IST" finished-at="2024-03-20T16:56:25 IST">
+        <test-method signature="testPost()[pri:1, instance:api.test.UserTest@4659191b]" started-at="2024-04-16T16:03:59 IST" name="testPost" finished-at="2024-04-16T16:04:03 IST" duration-ms="4177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPost -->
-        <test-method status="PASS" signature="testGetuserByName()[pri:2, instance:api.test.UserTest@7a30d1e6]" name="testGetuserByName" duration-ms="1469" started-at="2024-03-20T16:56:25 IST" finished-at="2024-03-20T16:56:26 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetuserByName -->
-        <test-method status="PASS" signature="testUpdateUser()[pri:3, instance:api.test.UserTest@7a30d1e6]" name="testUpdateUser" duration-ms="2651" started-at="2024-03-20T16:56:26 IST" finished-at="2024-03-20T16:56:29 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testUpdateUser -->
-        <test-method status="PASS" signature="testDeleteUser()[pri:4, instance:api.test.UserTest@7a30d1e6]" name="testDeleteUser" duration-ms="1426" started-at="2024-03-20T16:56:29 IST" finished-at="2024-03-20T16:56:30 IST">
+        <test-method signature="testDeleteUser()[pri:4, instance:api.test.UserTest@4659191b]" started-at="2024-04-16T16:04:03 IST" name="testDeleteUser" finished-at="2024-04-16T16:04:05 IST" duration-ms="1513" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteUser -->

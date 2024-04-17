@@ -24,7 +24,7 @@ public class UserEndpoints {
 
 				.when()
 
-				.post(Routes.post_url);
+				  	.post(Routes.post_url);
 
 		return response;
 

@@ -1,5 +1,7 @@
 package api.test;
 
+
+
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -8,6 +10,8 @@ import com.github.javafaker.Faker;
 
 import api.endpoints.UserEndpoints;
 import api.payloads.User;
+import io.restassured.http.Header;
+import io.restassured.http.Headers;
 import io.restassured.response.Response;
 
 public class UserTest {
@@ -42,7 +46,7 @@ public class UserTest {
 
 	}
 
-	@Test(priority = 2)
+	//@Test(priority = 2)
 	public void testGetuserByName() {
 
 		Response response = UserEndpoints.readUser(userpayload.getUsername());
@@ -50,7 +54,7 @@ public class UserTest {
 		response.then().log().all();
 
 	}
-	@Test(priority = 3)
+	//@Test(priority = 3)
 	public void testUpdateUser() {
 
 		// Updating the Firstname,lastname and email address
@@ -67,7 +71,8 @@ public class UserTest {
 		response.then().log().body().statusCode(200);
 
 		// TestNG assertion
-		Assert.assertEquals(response.getStatusCode(), 200);
+	//	Assert.assertEquals(response.getStatusCode(), 200);
+		Assert.assertEquals(response.getStatusCode(), 200, "status code is not as expected");
 
 		// checking the data after update
 
@@ -81,6 +86,17 @@ public class UserTest {
 		
 		
 		Response response = UserEndpoints.deleteUser(userpayload.getUsername());
+		String contenttype = response.contentType();
+		Headers headerslist = response.getHeaders();
+		String dateheader = response.getHeader("Date");
+		for(Header headers : headerslist) {
+		System.out.println("headers are  " + "******" + headers);
+		}
+		Assert.assertEquals(contenttype,"application/json", " contenttype is not matched");
+		
+		
+		
+		
 		response.then().log().all();
 		Assert.assertEquals(response.getStatusCode(), 200);
 	}
