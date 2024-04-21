@@ -2,6 +2,7 @@ package api.test;
 
 
 
+import org.apache.poi.util.SystemOutLogger;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -89,6 +90,7 @@ public class UserTest {
 		String contenttype = response.contentType();
 		Headers headerslist = response.getHeaders();
 		String dateheader = response.getHeader("Date");
+		System.out.println(dateheader);
 		for(Header headers : headerslist) {
 		System.out.println("headers are  " + "******" + headers);
 		}
