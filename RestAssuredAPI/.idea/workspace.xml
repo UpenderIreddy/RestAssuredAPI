@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4b8d499-456b-454f-8ffb-104479787eaa" name="Changes" comment="" />
+    <list default="true" id="d4b8d499-456b-454f-8ffb-104479787eaa" name="Changes" comment="commited from intellij" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +18,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "UpenderIreddy"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/UpenderIreddy/RestAssuredAPI",
+    "accountId": "a7bd0cc5-cf22-4826-bcff-de8c5de533df"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -26,16 +38,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.UserTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.UserTest.executor&quot;: &quot;Run&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/uireddy/git/RestAssuredAPI/RestAssuredAPI&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.UserTest (1).executor": "Run",
+    "TestNG.UserTest.executor": "Run",
+    "git-widget-placeholder": "Upender__RestAssured__intellij",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/uireddy/git/RestAssuredAPI/RestAssuredAPI"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="TestNG.UserTest">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="RestAssuredAPI" />
@@ -101,5 +114,9 @@
       <updated>1713781215292</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commited from intellij" />
+    <option name="LAST_COMMIT_MESSAGE" value="commited from intellij" />
   </component>
 </project>
