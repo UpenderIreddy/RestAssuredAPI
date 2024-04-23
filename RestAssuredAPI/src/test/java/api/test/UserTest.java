@@ -43,6 +43,7 @@ public class UserTest {
 
 		Response response = UserEndpoints.createUser(userpayload);
 		response.then().log().all();
+		System.out.println(response.getStatusCode());
 		Assert.assertEquals(response.getStatusCode(), 200);
 
 	}
