@@ -48,7 +48,7 @@ public class UserTest {
 
 	}
 
-	//@Test(priority = 2)
+	@Test(priority = 2)
 	public void testGetuserByName() {
 
 		Response response = UserEndpoints.readUser(userpayload.getUsername());
@@ -56,7 +56,7 @@ public class UserTest {
 		response.then().log().all();
 
 	}
-	//@Test(priority = 3)
+	@Test(priority = 3)
 	public void testUpdateUser() {
 
 		// Updating the Firstname,lastname and email address
